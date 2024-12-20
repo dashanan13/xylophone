@@ -11,7 +11,7 @@ class Xylophone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false, //disabled debug banner
       home: Scaffold(
         appBar: AppBar(
           title: const Text(
